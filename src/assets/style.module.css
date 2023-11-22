@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(12-Dark-thumbnail.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  overflow: hidden;
+}
+.titleImage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.titleImage img {
+  width: 500px;
+  height: 300px;
+  object-fit: cover;
+  cursor: pointer;
+  border-radius: 25px;
+}
+.imgContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+.images {
+  width: 400px;
+  height: 200px;
+  object-fit: cover;
+  cursor: pointer;
+  transition: 0.5s;
+  border-radius: 25px;
+  &:hover {
+    transform: scale(1.1);
+  }
+}
